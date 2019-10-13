@@ -6,28 +6,6 @@
 	<title>Holman Tse | Linguist | St. Catherine University</title>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-String.prototype.rot13 = function()
-{
-	return (this ? this : this).split('').map(function(_)
-	{
-		if (!_.match(/[A-za-z]/)) {return _}
-		c = Math.floor(_.charCodeAt(0) / 97)
-		k = (_.toLowerCase().charCodeAt(0) - 83) % 26 || 26
-		return String.fromCharCode(k + ((c == 0) ? 64 : 96))
-	}).join('')
-}
-$(function()
-{
-	$("div.dahntahn").width($("img.dahntahn").width())
-	$("#email").click(function(e)
-	{
-		e.preventDefault()
-		window.open("uog3@cvgg.rqh".rot13())
-	})
-})
-</script>
-
 	
 
 	<meta name="description" content="" />
@@ -57,12 +35,13 @@ USA
 
 <p>Office Location: 452 CdC (Coeur de Catherine)</p>
 
-<p> </p> 
-
+<h2>Welcome</h2>
+<p>Welcome to the latest version of my website, which was hosted for many years at pitt.edu. My website is now on GitHub and I am now at St. Catherine University. I am in the process of restoring content that was previously available on my pitt.edu site. This is an ongoing project. Stay tuned!</p>
 
 <h3>News</h3>
 
-<p><strong>September 26, 2019</strong>: Welcome to the latest version of my website, which was hosted for many years at pitt.edu. My website is now on GitHub and I am now at St. Catherine University. I am in the process of restoring content that was previously available on my pitt.edu site. This is an ongoing project. Stay tuned!</p>
+<p><strong>October 10, 2019</strong>: Presentation at NWAV 48 at the University of Oregon, <a href="https://works.bepress.com/holman-tse/1/">Slides</a></p>
+
 
 <p><strong>June 30</strong>: Presentation at <a href="https://diasporalinguistics.wixsite.com/symposium/schedule">Linguistic Research with Diaspora Communities</a> (LSA Summer Institute Symposium, UC Davis). <a href="http://d-scholarship.pitt.edu/37022/">Link to Abstract/Slides</a></p>
 
@@ -96,10 +75,10 @@ USA
 <a id="academia-button" href="https://pitt.academia.edu/HolmanTse">Academia.edu</a><script src="//a.academia-assets.com/javascripts/social.js"></script>
 </p>  
 <p><a href="https://plu.mx/pitt/u/pitt-hbt3" class="plumx-person" data-site="pitt" data-num-artifacts="5">PlumX</a></p>
+<p><a href="https://works.bepress.com/holman-tse/">BePress</p>
 
 
-
-<p><a href="mailto:" id="email">Email</a> (hbtse110 AT state DOT edu)</p>
+<p><a href="mailto:" id="email">Email</a> (hbtse110 AT stkate DOT edu)</p>
 
 </body>
 </html>
