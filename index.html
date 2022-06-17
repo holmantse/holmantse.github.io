@@ -1,103 +1,158 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Holman Tse | Linguist | St. Catherine University</title>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+
+
+<title>Holman Tse | Linguist | St. Catherine University</title>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	
+
 
 	<meta name="description" content="" />
-	
+
 
 	<meta name="robots" content="index, follow" />
 
-	
+
 </head>
 
 <body>
 
 
-<a href="index.html">Home</a> 
- | <a href="research.html">Research</a> | <a href="presentations.html">Presentations</a> | <a href="publications.html">Publications</a> | <a href="teaching.html">Teaching</a> | <a href="resources.html">Resources</a>
+<!-- Navbar -->
+<div class="scrollmenu w3-top w3-left-align w3-large">
 
-<h1>Holman Tse, PhD</h1>
+<button class="w3-button w3-theme-l5 w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
 
-<img src="profile_pic.jpg" height="15%" width="15%"></img>
+<a href="index.html" class="w3-bar-item w3-button w3-hover-white">Home Page</a>
+    <a href="research.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Research</a>
+    <a href="publications.html" class="w3-bar-item w3-button w3-hover-white">Publications</a>
+    <a href="presentations.html" class="w3-bar-item w3-button w3-hover-white">Presentations</a>
+    <a href="teaching.html" class="w3-bar-item w3-button w3-hover-white">Teaching</a>
+</div>
 
-<p>
-Assistant Professor<br> 
-Dept. of English<br>
-St. Catherine University<br>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left w3-margin-top" id="mySidebar">
+
+
+<!--Sidebar close button -->
+<button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+
+<div>
+<img src="profile_pic.jpg" height="100%" width="100%" alt="Profile Picture">
+</div>
+
+<div class="w3-bar-block w3-light-grey">
+<h4 style="margin-left:10px">Contact Info</h4>
+<p style="margin-left:10px"><small>
+<a href="http://www.stkate.edu">St. Catherine University</a><br>
 2004 Randolph Ave, Mailbox #4097<br>
 St. Paul, MN 55105<br>
-USA
+USA<br>
+Office Location: 452 CdC (Coeur de Catherine)<br>
+Phone: +1-651-690-6156<br>
+<a href="mailto:">Email</a>: (hbtse110 AT stkate DOT edu)
+<script src="//cdn.plu.mx/widget-person.js"></script></small></p>
+</div>
+
+
+
+</nav>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+<div class="w3-main" style="margin-left:275px; margin-top:50px">
+
+
+      <h1>Holman Tse, PhD (he/him/his)</h1>
+      <h4>Assistant Professor of Language Studies<br>
+Dept. of Literature, Language, and Writing (formerly English and International Languages)<br>
+<a href="http://www.stkate.edu">St. Catherine University</a></h4>
+
+<p>Welcome to my website! Here, you will find information about my work including links to publications and conference presentation slides.</p>
+<br>
+
+
+<h2>Latest News</h2>
+<ul>
+<li><strong>June 16, 2022</strong>: My website has been updated to HTML5 and with an entirely revamped design.</li>
+<li><strong>May 27, 2022</strong>: Presentation at <a href="https://u.osu.edu/wicl/wicl-6/wicl-6-program/">Workshop on Innovations in Cantonese Linguistics (WICL-6)</a> at The Ohio State University, Columbus, OH (hosted as a virtual conference):
+"Is There Cross-linguistic Influence of English /u/ on Toronto Cantonese High Round Vowels?", See <a href="https://works.bepress.com/holman-tse/12/">Abstract/Slides</a>
+</li>
+</ul>
+
+<h2>About Me</h2>
+<p>I am a linguist specializing in heritage language phonetics and phonology and more broadly on sociophonetic variation and sound change in language contact settings. For example, my current research focuses on the extent of English influence on the vowel pronunciation patterns of bilingual Cantonese heritage speakers in Toronto, Canada. You can read more about my research on the <a href="research.html">research page</a> and through links to <a href="publications.html">publications</a> and <a href="presentations.html">presentations</a>. Both my MA (Univ. of Chicago) and PhD (Univ. of Pittsburgh) are in Linguistics while my BA (UC Santa Cruz) is in Anthropology. I have been a faculty member at St. Kate's since 2019. I teach general linguistics and sociolinguistics courses for the Language Studies Program. These courses are part of the “language” part of the Department of Literature, Language, and Writing (formerly Dept. of English and International Languages). You can find more information about my courses by visiting the <a href="teaching.html">teaching page</a>. Although it's not a requirement to become a linguist (because it is not what linguistics is actually about), I am able to converse in several different languages. The last page of my CV includes a list of specific languages.
 </p>
 
-<p>Office Location: 452 CdC (Coeur de Catherine)</p>
+
+      <h2>CV</h2>
+      <p><a href="CV-Tse_Holman.pdf">My CV (PDF)</a> - <em>Last Updated: June 16, 2022</em></p>
 
 <!--
-<h2>Welcome</h2>
-<p>Welcome to the latest version of my website, which was hosted for many years at pitt.edu. My website is now on GitHub and I am now at St. Catherine University. I am in the process of restoring content that was previously available on my pitt.edu site. This is an ongoing project. Stay tuned!</p>
--->
-<h3>News</h3>
-
-<p><strong>May 27, 2022</strong>: Presentation at <a href="https://u.osu.edu/wicl/wicl-6/wicl-6-program/">Workshop on Innovations in Cantonese Linguistics (WICL-6)</a> at The Ohio State University, Columbus, OH (hosted as a virtual conference)</a>
-<ul>
-"Is There Cross-linguistic Influence of English /u/ on Toronto Cantonese High Round Vowels?", See <a href="https://works.bepress.com/holman-tse/12/">Abstract/Slides</a>
-</ul></p>
-
-<p></p>
-<h3>CV</h3>
-    
-<p>
-<a href="CV-Tse_Holman.pdf">My CV (PDF)</a> - <em>Last Updated: June 5, 2022</em></p>
-
-<h3>Education</h3>
-<p>
-<strong>PhD</strong>, <a href="http://www.pitt.edu">University of Pittsburgh</a> (Linguistics)<br>
-<strong>MA</strong>, <a href="http://www.uchicago.edu">University of Chicago</a> (Linguistics)<br>
-<strong>BA</strong>, <a href="http://www.ucsc.edu">University of California - Santa Cruz</a> (Anthropology with highest honors, minor in Linguistics, <a href="https://www.pbk.org/home/index.aspx">Phi Beta Kappa</a>)</p>
-
-<p><strong>Certificate in TESL</strong>, University of California - Berkeley (Extension)</p>
-
-<h3>Research Interests</h3>
+<h2>Research Interests Keywords</h2>
 <p><strong>General Areas</strong>: Sociolinguistics, Contact Linguistics, Historical Linguistics, Phonetics / Phonology<br>
-<strong>Specific Areas</strong>: sound change and bilingualism/multilingualism, heritage language phonetics/phonology, vowel variation and change, phonetics-phonology interface, Cantonese linguistics, Northeastern Bantu Languages</p>
-
-<h3>Research Profiles</h3>
+<strong>Specific Areas</strong>: sound change and bilingualism/multilingualism, heritage language phonetics/phonology, vowel variation and change, phonetics-phonology interface, Cantonese linguistics, Northeastern Bantu Languages</p>-->
 
 
-<p><a href="https://orcid.org/0000-0002-2398-5776">ORCID ID:</a> 0000-0002-2398-5776<br>
-<a href="https://scholar.google.com/citations?user=sd7G4GAAAAAJ&hl=en">Google Scholar</a>
+<h2>Research Profiles</h2>
+
+<p>I maintain research profiles on the following websites:</p>
+
+<ul>
+<li><a href="https://scholar.google.com/citations?user=sd7G4GAAAAAJ&hl=en">Google Scholar</a></li>
+<li><a href="http://www.publons.com/a/1438474/">Publons</a></li>
+<li><a id="academia-button" href="https://pitt.academia.edu/HolmanTse">Academia.edu</a><script src="//a.academia-assets.com/javascripts/social.js"></script></li>
+
+<li><a href="https://plu.mx/pitt/u/?orcid=0000-0002-2398-5776">PlumX Profile</a>
+</li>
+<li><a href="https://orcid.org/0000-0002-2398-5776">ORCID ID:</a> 0000-0002-2398-5776</li>
+
+<li><a href="https://works.bepress.com/holman-tse/">BePress</a></li>
+<li><a title="Follow me on ResearchGate" href="https://www.researchgate.net/profile/Holman_Tse?cp=shp"><img src="https://www.researchgate.net/images/public/profile_share_badge.png" alt="Follow me on ResearchGate" /></a></li>
+</ul>
+
+</div>
+
+
+    <div class="w3-container w3-theme-l2">
+<footer id="myFooter" style="text-align:right">
+
+<p>Website created and maintained by Holman Tse (Email: <a href="mailto:">hbtse110 AT stkate DOT edu</a>)
+<script src="//cdn.plu.mx/widget-person.js"></script>
+and powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>.
 <br>
-<p><a href="http://www.publons.com/a/1438474/">Publons</a><br>
-<a id="academia-button" href="https://pitt.academia.edu/HolmanTse">Academia.edu</a><script src="//a.academia-assets.com/javascripts/social.js"></script>
-</p>  
 
-
-<p>
-<a href="https://plu.mx/pitt/u/?orcid=0000-0002-2398-5776">PlumX Profile</a>
-</p>
-
-
-<p><a href="https://works.bepress.com/holman-tse/">BePress</p>
-<p><a title="Follow me on ResearchGate" href="https://www.researchgate.net/profile/Holman_Tse?cp=shp"><img src="https://www.researchgate.net/images/public/profile_share_badge.png" alt="Follow me on ResearchGate" /></a></p>
-
-
-<p><a href="mailto:" id="email">Email</a> (hbtse110 AT stkate DOT edu)</p>
-<script type="text/javascript" src="//cdn.plu.mx/widget-person.js"></script>
-
-</body>
-</html>
-
-
-<script language="JavaScript">
+<script>
 <!-- Hide JavaScript...
 var LastUpdated = document.lastModified;
 document.writeln ("<em>This page was last updated: </em>" + LastUpdated + " CDT (GMT -5:00)");
 // End Hiding -->
 </script>
+
+</footer>
+</div>
+
 </body>
 </html>
